@@ -39,7 +39,7 @@ class SyncWithBear extends Command
 
             $stub = new StubService(
                 base_path('post.stub'),
-                getcwd() . 'source/_posts/' . Str::slug($note->title, '-') . '.md'
+                getcwd() . '/source/_posts/' . Str::slug($note->title, '-') . '.md'
             );
 
             $stub->render([
@@ -49,9 +49,9 @@ class SyncWithBear extends Command
             ]);
 
             $this->info('Created post on jigsaw!');
+        } else {
+            $this->error('Could not create post.');
         }
-
-        $this->error('Could not create post.');
     }
 
     /**

@@ -1,6 +1,6 @@
 {
     "name": "fwartner/bearsaw",
-    "description": "The Laravel Zero Framework.",
+    "description": "Sync your bear notes with jigsaw",
     "keywords": ["bear", "jigsaw", "laravel zero", "blog", "markdown"],
     "homepage": "https://wartner.io",
     "type": "project",

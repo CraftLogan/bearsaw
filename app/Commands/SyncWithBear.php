@@ -36,7 +36,7 @@ class SyncWithBear extends Command
 
         $stub = new StubService(
             base_path('post.stub'),
-            base_path('/source/_posts/') . Str::slug($note->title, '-') . '.md'
+            getcwd() . '/source/_posts/' . Str::slug($note->title, '-') . '.md'
         );
 
         $stub->render([

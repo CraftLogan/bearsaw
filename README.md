@@ -1,5 +1,5 @@
 <p align="center">
-    <img title="Bearsaw" height="100" src="https://" />
+    <img title="Bearsaw Logo" height="100" src="https://raw.githubusercontent.com/fwartner/bearsaw/master/.github/bearsaw_logo.png" />
 </p>
 
 <p align="center">
@@ -8,17 +8,10 @@
   <a href="https://packagist.org/packages/fwartner/bearsaw"><img src="https://poser.pugx.org/fwartner/bearsaw/license.svg" alt="License"></a>
 </p>
 
-<h4> <center>This is a <bold>community project</bold> and not an official Laravel one </center></h4>
+Bearsaw works with [Laravel Zero](https://laravel-zero.com/) and [calebporzio/bear-sync](https://github.com/calebporzio/bear-sync) under the hood in order to create posts for your jigsaw based blog.
 
-Laravel Zero was created by, and is maintained by [Nuno Maduro](https://github.com/nunomaduro), and is a micro-framework that provides an elegant starting point for your console application. It is an **unofficial** and customized version of Laravel optimized for building command-line applications.
-
-- Built on top of the [Laravel](https://laravel.com) components.
-- Optional installation of Laravel [Eloquent](https://laravel-zero.com/docs/database/), Laravel [Logging](https://laravel-zero.com/docs/logging/) and many others.
-- Supports interactive [menus](https://laravel-zero.com/docs/build-interactive-menus/) and [desktop notifications](https://laravel-zero.com/docs/send-desktop-notifications/) on Linux, Windows & MacOS.
-- Ships with a [Scheduler](https://laravel-zero.com/docs/task-scheduling/) and  a [Standalone Compiler](https://laravel-zero.com/docs/build-a-standalone-application/).
-- Integration with [Collision](https://github.com/nunomaduro/collision) - Beautiful error reporting
-
-------
+Please notice that you will only be able to create posts for the basic blog-starter brought you by jigsaw.
+Feel free to contribute if you would like to see your ideas coming along with this tool.
 
 ## Support the development
 **Do you like this project? Support it by donating**

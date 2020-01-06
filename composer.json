@@ -15,16 +15,13 @@
             "email": "florian@wartner.io"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/calebporzio/bear-sync"
-        }
-    ],
     "require": {
         "php": "^7.2",
-        "laravel-zero/framework": "^6.0",
-        "calebporzio/bear-sync": "dev-master"
+        "calebporzio/bear-sync": "^1.0",
+        "illuminate/database": "^6.8",
+        "illuminate/filesystem": "^6.8",
+        "illuminate/support": "^6.8",
+        "laravel-zero/framework": "^6.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",

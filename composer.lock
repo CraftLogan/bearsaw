@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3a3c03c6319a2a175234cf6597ceac95",
+    "content-hash": "d3f541bfb54aee07630158154b682d31",
     "packages": [
         {
             "name": "calebporzio/bear-sync",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/calebporzio/bear-sync.git",
-                "reference": "7d2888b2872e5eb5d762f2c7420e6a297dc173da"
+                "reference": "c61c56066767c168bd9fb0070f1eac3536ef2fda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/calebporzio/bear-sync/zipball/7d2888b2872e5eb5d762f2c7420e6a297dc173da",
-                "reference": "7d2888b2872e5eb5d762f2c7420e6a297dc173da",
+                "url": "https://api.github.com/repos/calebporzio/bear-sync/zipball/c61c56066767c168bd9fb0070f1eac3536ef2fda",
+                "reference": "c61c56066767c168bd9fb0070f1eac3536ef2fda",
                 "shasum": ""
             },
             "require": {
@@ -31,6 +31,7 @@
                     "BearSync\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -40,12 +41,8 @@
                     "email": "calebporzio@gmail.com"
                 }
             ],
-            "description": "Access your Bear notes in Larabel",
-            "support": {
-                "source": "https://github.com/calebporzio/bear-sync/tree/master",
-                "issues": "https://github.com/calebporzio/bear-sync/issues"
-            },
-            "time": "2020-01-06T12:46:45+00:00"
+            "description": "Access your Bear notes in Laravel",
+            "time": "2020-01-06T16:58:03+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -3905,9 +3902,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "calebporzio/bear-sync": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

@@ -34,16 +34,24 @@ class SyncWithBear extends Command
         $noteTitle = $this->ask('What´s the title of the note?');
         $note = BearNote::whereTitle($noteTitle)->first();
 
-        $stub = new StubService(
-            base_path('post.stub'),
-            getcwd() . '/source/_posts/' . Str::slug($note->title, '-') . '.md'
-        );
+        if ($note) {
+            $this->info('Found note...');
 
-        $stub->render([
-            ':POST_TITLE:' => $note->title,
-            ':POST_DATE:' => now()->format('Y-m-d'),
-            ':POST_CONTENT:' => $note->content,
-        ]);
+            $stub = new StubService(
+                base_path('post.stub'),
+                getcwd() . 'source/_posts/' . Str::slug($note->title, '-') . '.md'
+            );
+
+            $stub->render([
+                ':POST_TITLE:' => $note->title,
+                ':POST_DATE:' => now()->format('Y-m-d'),
+                ':POST_CONTENT:' => $note->content,
+            ]);
+
+            $this->info('Created post on jigsaw!');
+        }
+
+        $this->error('Could not create post.');
     }
 
     /**

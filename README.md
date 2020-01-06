@@ -10,8 +10,11 @@
 
 Bearsaw works with [Laravel Zero](https://laravel-zero.com/) and [calebporzio/bear-sync](https://github.com/calebporzio/bear-sync) under the hood in order to create posts for your jigsaw based blog.
 
-Please notice that you will only be able to create posts for the basic blog-starter brought you by jigsaw.
+Please notice that you will only be able to create posts for the basic blog-starter brought you by jigsaw.<br>
 Feel free to contribute if you would like to see your ideas coming along with this tool.
+
+## How does it work?
+<img title="Bearsaw Logo" src="http://g.recordit.co/rlM1uX0nuU.gif" />
 
 ## Support the development
 **Do you like this project? Support it by donating**

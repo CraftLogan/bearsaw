@@ -18,9 +18,6 @@
     "require": {
         "php": "^7.2",
         "calebporzio/bear-sync": "^1.0",
-        "illuminate/database": "^6.8",
-        "illuminate/filesystem": "^6.8",
-        "illuminate/support": "^6.8",
         "laravel-zero/framework": "^6.0"
     },
     "require-dev": {

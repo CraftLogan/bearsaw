@@ -16,6 +16,9 @@ Feel free to contribute if you would like to see your ideas coming along with th
 ## How does it work?
 <img title="Bearsaw Logo" src="http://g.recordit.co/rlM1uX0nuU.gif" />
 
+## How to install
+Simply by running `composer global require fwartner/bearsaw` from your terminal.
+
 ## Support the development
 **Do you like this project? Support it by donating**
 
